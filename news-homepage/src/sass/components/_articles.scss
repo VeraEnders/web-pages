@@ -1,0 +1,26 @@
+.articles {
+  margin-top: 71px;
+}
+
+.article {
+  display: flex;
+}
+
+.article__image {
+  max-width: 100px;
+  max-height: 127px;
+  margin-right: 25px;
+}
+
+.article__num {
+  color: $color-text-light;
+  font-size: 3.3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.article__desc {
+  margin-top: 9px;
+  line-height: 2.5rem;
+}
