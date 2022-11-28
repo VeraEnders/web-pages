@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: $color-text-dark;
+  padding: 30px 25px 0;
+}
+
+.sidebar__title {
+  display: inline-block;
+  color: $color-primary-hovered;
+}
+
+.sidebar__item {
+  margin-top: 30px;
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $color-text-primary;
+  }
+}
+
+.sidebar__subtitle {
+  color: $color-bg;
+}
+
+.sidebar__item__desc {
+  margin-top: 8px;
+  line-height: 2.6rem;
+  color: $color-text-light;
+  padding-bottom: 30px;
+}

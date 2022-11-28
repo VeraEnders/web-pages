@@ -1,0 +1,21 @@
+.button {
+  @extend %font-primary;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  border: none;
+  background-color: $color-primary;
+  color: $color-bg;
+  cursor: pointer;
+  @extend %transition;
+  padding: 16px 32px;
+  &:hover{
+    background-color: $color-text-dark;
+  }
+
+}
+
+.main__button {
+  margin-top: 37px;
+}

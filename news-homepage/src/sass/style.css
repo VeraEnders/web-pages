@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+a:active, a:hover {
+  outline: 0;
+}
+
+.navigation__link, .button {
+  transition: all 0.3s ease-out;
+}
+
+.button, body {
+  font-family: "Inter", Verdana, sans-serif;
+}
+
+html {
+  font-size: 10px;
+  background-color: hsl(36deg, 100%, 99%);
+}
+
+body {
+  font-size: 1.5rem;
+  color: hsl(236deg, 13%, 42%);
+}
+
+h1,
+h3,
+h4 {
+  color: hsl(240deg, 100%, 5%);
+}
+
+h1 {
+  font-size: 5.6rem;
+  font-weight: 900;
+  line-height: 5.6rem;
+  margin-top: 30px;
+}
+
+h2 {
+  color: hsl(36deg, 100%, 99%);
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h2,
+h3 {
+  cursor: pointer;
+}
+h2:hover,
+h3:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+h4:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+}
+.button {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  border: none;
+  background-color: hsl(5deg, 85%, 63%);
+  color: hsl(36deg, 100%, 99%);
+  cursor: pointer;
+  padding: 16px 32px;
+}
+.button:hover {
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+.main__button {
+  margin-top: 37px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation__link {
+  list-style: none;
+  padding-left: 37px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.main__image {
+  max-width: 730px;
+}
+
+.main__content {
+  display: flex;
+  margin-top: 30px;
+}
+
+.main__heading {
+  margin-top: 0;
+}
+
+.main__desc {
+  max-width: 350px;
+  line-height: 2.3rem;
+}
+
+.sidebar {
+  background-color: hsl(240deg, 100%, 5%);
+  padding: 30px 25px 0;
+}
+
+.sidebar__title {
+  display: inline-block;
+  color: hsl(35deg, 77%, 62%);
+}
+
+.sidebar__item {
+  margin-top: 30px;
+}
+.sidebar__item:not(:last-of-type) {
+  border-bottom: 1px solid hsl(236deg, 13%, 42%);
+}
+
+.sidebar__subtitle {
+  color: hsl(36deg, 100%, 99%);
+}
+
+.sidebar__item__desc {
+  margin-top: 8px;
+  line-height: 2.6rem;
+  color: hsl(233deg, 8%, 79%);
+  padding-bottom: 30px;
+}
+
+.articles {
+  margin-top: 71px;
+}
+
+.article {
+  display: flex;
+}
+
+.article__image {
+  max-width: 100px;
+  max-height: 127px;
+  margin-right: 25px;
+}
+
+.article__num {
+  color: hsl(233deg, 8%, 79%);
+  font-size: 3.3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.article__desc {
+  margin-top: 9px;
+  line-height: 2.5rem;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 31.5%;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.attribution {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
