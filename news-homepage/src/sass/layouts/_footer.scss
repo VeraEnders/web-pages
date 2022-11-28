@@ -1,3 +1,11 @@
 .attribution {
-  margin-top: 30px;
+  margin: 30px auto 0;
+  font-size: 11px; 
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+  @include media-tablet {
+    width: 80%;
+  }
 }
