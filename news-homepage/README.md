@@ -24,15 +24,9 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Toggle the mobile menu (requires some JavaScript)
 
-### Screenshot
-Desktop
-image.png
-
-Mobile
-image.png
-
-Mobile Menu Opened
-image.png
+### Screenshots
+![image](https://user-images.githubusercontent.com/56802407/204520054-971e3533-af75-48a8-9466-c844f7272f6e.png)
+![image](https://user-images.githubusercontent.com/56802407/204520684-5f9cb810-0e60-4590-9ee7-59bf69105cda.png)
 
 ### Links
 
