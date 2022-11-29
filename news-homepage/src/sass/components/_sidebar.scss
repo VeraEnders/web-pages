@@ -1,6 +1,15 @@
 .sidebar {
+  flex-basis: 48%;
   background-color: $color-text-dark;
   padding: 30px 25px 0;
+  @include media-tablet {
+    flex-basis: 80%;
+  }
+  @include media-mobile {
+    flex-basis: 100%;
+    margin-top: 45px;
+    padding: 15px 17px 0;
+  }
 }
 
 .sidebar__title {
@@ -13,6 +22,9 @@
   &:not(:last-of-type) {
     border-bottom: 1px solid $color-text-primary;
   }
+  @include media-mobile {
+    margin-top: 28px;
+  }
 }
 
 .sidebar__subtitle {
@@ -24,4 +36,9 @@
   line-height: 2.6rem;
   color: $color-text-light;
   padding-bottom: 30px;
+  @include media-mobile {
+    margin-top: 6px;
+    line-height: 2.2rem;
+    padding-bottom: 23px;
+  }
 }

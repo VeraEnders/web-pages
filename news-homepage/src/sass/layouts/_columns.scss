@@ -5,4 +5,9 @@
   >* {
     flex-basis: 31.5%;
   }
+  @include media-tablet {
+    >* {
+      flex-basis: 100%;
+    }
+  }
 }

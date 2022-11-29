@@ -6,17 +6,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
   <title>Frontend Mentor | News homepage</title>
   <link rel="stylesheet" href="./src/sass/style.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="header">
     <div class="wrapper header__wrapper">
       <div class="header__logo">
-        <a href="#" class="logo"><img src="./assets/images/logo.svg" alt="logo">
-        </a>
+        <a href="#" class="logo"><img src="./assets/images/logo.svg" alt="logo"></a>
       </div>
       <nav class="header__navigation">
         <ul class="navigation">
@@ -27,6 +22,11 @@
           <li class="navigation__link">Categories</li>
         </ul>
       </nav>
+      <div class="header__hamburger hamburger">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </div>
     </div>
   </header>
 
@@ -34,7 +34,8 @@
     <section class="main">
       <div class="wrapper main__wrapper">
         <article>
-          <img class="main__image" src="./assets/images/image-web-3-desktop.jpg" alt="Cover Web3">
+          <img class="main__image" src="./assets/images/image-web-3-desktop.jpg" alt="Cover Desktop Web3">
+          <img class="main__image-mobile" src="./assets/images/image-web-3-mobile.jpg" alt="Cover Mobile Web3">
           <div class="main__content">
             <h1 class="main__heading">The Bright Future of Web 3.0?</h1>
             <div class="main__desc">
@@ -65,7 +66,7 @@
     </section>
 
     <section class="articles">
-      <div class="wrapper ">
+      <div class="wrapper">
         <div class="layout-3-column">
           <article class="article"> 
             <img class="article__image" src="./assets/images/image-retro-pcs.jpg" alt="retro pc">
@@ -97,8 +98,12 @@
   </main>
 
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/VeraEnders" target="_blank">Vera Enders</a>.
+    <div class="wrapper">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/VeraEnders" target="_blank">Vera Enders</a>.
+    </div> 
   </footer>
+
+  <script src="./src/index.js"></script>
 </body>
 </html>
